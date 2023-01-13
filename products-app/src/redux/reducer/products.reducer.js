@@ -14,7 +14,7 @@ export const cardReducer = (state = initialize, action) => {
       return {
         ...state,
         loading: false,
-        data: action.payload,
+        data: action.payload.data.filter((q) => q.name.toLowerCase().includes(action.payload.name.toLowerCase()))
       };
 
     case "GET_CARD_FAILED":

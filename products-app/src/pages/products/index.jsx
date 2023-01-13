@@ -1,4 +1,4 @@
-import { Button, Card } from "antd";
+import { Button, Card, Input } from "antd";
 import Meta from "antd/es/card/Meta";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -30,6 +30,10 @@ const Products = () => {
     dispatch(sortByPriceAction(objSort));
   };
 
+  const handleSearch = (name) => {
+    dispatch(cardAction(name))
+  }
+
   return (
     <div className="container">
       <Helmet>
@@ -39,11 +43,13 @@ const Products = () => {
           content="Beginner friendly page for learning React Helmet."
         />
       </Helmet>
-      <div className="card-box">
+        {/* <input type="text" placeholder="Search products"  onChange={(e) => handleSearch(e.target.value)} /> */}
+        <Input placeholder="Search products"  onChange={(e) => handleSearch(e.target.value)}></Input>
         <Button onClick={() => handleSort(productCard.data)}>
           {" "}
           Sort By Price{" "}
         </Button>
+      <div className="card-box">
         {productCard.loading ? (
           "loading..."
         ) : (

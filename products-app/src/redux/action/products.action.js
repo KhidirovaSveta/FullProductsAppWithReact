@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const cardAction = () => {
+export const cardAction = (name) => {
   return async (dispatch) => {
     dispatch({
       type: "GET_CARD_STARTED",
@@ -9,7 +9,7 @@ export const cardAction = () => {
       let response = await axios.get(`http://localhost:8080/`);
       dispatch({
         type: "GET_CARD_SUCCSESS",
-        payload: response.data,
+        payload:{ data: response.data, name: name },
       });
     } catch (error) {
       dispatch({

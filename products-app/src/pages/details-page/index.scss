@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.goBackBtn{
+    margin-left: 120px;
+    margin-top: 90px;
+    padding: 5px 25px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.4);
+    cursor: pointer;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    .img-details{
+        display: flex;
+        img {
+            width: 450px;
+            margin-left: 100px;
+        }
+    }
+    .product-info{
+        margin-left: 190px;
+        .text {
+            margin-top: 15px;
+        }
+        p{
+            width: 50%;
+        }
+    }
+}

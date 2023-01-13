@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Asus",
+      "price": 1200,
+      "description": "ASUS uses some analytics, targeting, adverting and video-embedded cookies provided by ASUS or third parties. ",
+      "img": "https://www.asus.com/media/Odin/Websites/global/Series/9.png"
+    },
+    {
+      "id": 2,
+      "name": "Zenbook Flip",
+      "price": 1200,
+      "description": "ASUS uses some analytics, targeting, adverting and video-embedded cookies provided by ASUS or third parties. ",
+      "img": "https://www.asus.com/media/Odin/Websites/global/Series/11.png"
+    },
+    {
+      "id": 3,
+      "name": "Asus VivoBook 14",
+      "price": 1200,
+      "description": "ASUS uses some analytics, targeting, adverting and video-embedded cookies provided by ASUS or third parties. ",
+      "img": "https://m.media-amazon.com/images/I/61aJ66mAt2L.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Asus",
+      "price": 1200,
+      "description": "ASUS uses some analytics, targeting, adverting and video-embedded cookies provided by ASUS or third parties. ",
+      "img": "https://dlcdnwebimgs.asus.com/gain/21371848-0723-48d5-8ed9-61b9e3bd2125/"
+    },
+    {
+      "id": 6,
+      "name": "Asus laptop 14",
+      "price": 1200,
+      "description": "ASUS uses some analytics, targeting, adverting and video-embedded cookies provided by ASUS or third parties. ",
+      "img": "https://cdn.shopify.com/s/files/1/0449/4635/8437/products/download_11_c2d57fb7-c1c4-420c-aad2-4799bd087928_1024x1024.png?v=1663745040"
+    },
+    {
+      "id": 7,
+      "name": "Asus Laptop M415DA",
+      "price": 1200,
+      "description": "ASUS uses some analytics, targeting, adverting and video-embedded cookies provided by ASUS or third parties. ",
+      "img": "https://emcor.com.ph/wp-content/uploads/2022/05/M415DA-BV940W.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Asus",
+      "price": 1200,
+      "description": "ASUS uses some analytics, targeting, adverting and video-embedded cookies provided by ASUS or third parties. ",
+      "img": "https://dlcdnwebimgs.asus.com/gain/bd4042ba-9c3d-4dd4-a1fa-810bfc924a07/"
+    },
+    {
+      "name": "hi",
+      "price": "hi",
+      "description": "hi",
+      "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202301/asus-proart-sixteen_nine.jpg?size=948:533",
+      "id": 10
+    },
+    {
+      "name": "macbook pro",
+      "price": "15000",
+      "description": "aaaaaaa",
+      "img": "https://www.tradeinn.com/f/13745/137457920/apple-macbook-pro-touch-bar-16-i9-2.3-16gb-1tb-ssd-laptop.jpg",
+      "id": 11
+    },
+    {
+      "name": "macbook pro",
+      "price": "15000",
+      "description": "aaaaaaa",
+      "img": "https://www.tradeinn.com/f/13745/137457920/apple-macbook-pro-touch-bar-16-i9-2.3-16gb-1tb-ssd-laptop.jpg",
+      "id": 12
+    }
+  ]
+}
